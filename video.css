@@ -1,0 +1,49 @@
+/* Style the video gallery container */
+.video-gallery {
+  max-width: 800px; /* Set the maximum width of the gallery */
+  margin: 40px auto; /* Center the gallery horizontally */
+  overflow: hidden;
+  font-family: "Roboto", serif;
+  background: linear-gradient(135deg, black, #220033);
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the video items */
+
+/* Make the video gallery responsive */
+@media (max-width: 768px) {
+  .video-gallery {
+    max-width: 100/* Style the video gallery container */
+  }
+.video-gallery {
+  max-width: 800px; /* Set the maximum width of the gallery */
+  margin: 40px auto; /* Center the gallery horizontally */
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Style the video items */
+.video-item {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* Make the video gallery responsive */
+@media (max-width: 768px) {
+  .video-gallery {
+    max-width: 100%;
+    margin: 20px auto;
+  }
+}
+
+/* Style the video elements */
+video {
+  width: 100%; /* Make the video take up the full width of its container */
+  height: auto; /* Maintain aspect ratio by adjusting height automatically */
+    margin-top: 20px auto;
+  }
